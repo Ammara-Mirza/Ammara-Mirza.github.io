@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wishlist</title>
+    <link rel="stylesheet" href="wishlist.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+
+</head>
+<body>
+  <nav>
+    <div>
+         <div class="search-icon">
+              <a href="location.html" class="icon-link"><i class="fas fa-map-marker-alt fa-2x"></i></a>
+              <a href="shoppingbag.html" class="icon-link"><i class="fas fa-shopping-bag fa-2x"></i></a>
+              <a href="index.html" class="icon-link"><i class="fas fa-home fa-2x"></i></a>
+          </div>
+    </div>
+</nav>
+    <div class="container">
+        <div class="section">
+            <!--first half of the page-->
+            <h2>MY WISHLIST</h2>
+            <h1><span class="highlight">your wishlist is empty please add to proceed!</span> </h1>
+            <a href="index.HTML" class="button">BROWSE</a>
+            </div>
+            <div class="section">
+                <!--content of the other half-->
+              <h2>JOIN NOW</h2>
+              <form action="/submit_form" method="post">
+                <!--text input-->
+                <label for="Name">NAME:</label><br>
+                <input type="text" id="NAME" name="NAME"><br>
+
+                <!--email inout-->
+                <label for="Email">Email:</label><br>
+                <input type="email" id="email" name="Email"><br>
+
+                <!--password inout-->
+                <label for="password">password:</label><br>
+                <input type="password" id="password" name="password"><br>
+                
+                <!--select city-->
+                <label for="city">City:</label><br>
+                <select id="City" name="city">
+                <option value="Sharjah">Sharjah</option>
+                <option value="Ajman">Ajman</option>
+                <option value="Dubai">Dubai</option>
+                <option value="Ras-Al-Khaimah">Ras-Al-Khaimah</option>
+                <option value="Abu-Dhabi">Abu-Dhabi</option>
+                <option value="Umm-Al-Quwain">Umm-Al-Quwain</option>
+                <option value="Fujairah">Fujairah</option>
+                
+                </select> <br>
+
+              </form>
+             </div>
+          
+</body>
+</html>

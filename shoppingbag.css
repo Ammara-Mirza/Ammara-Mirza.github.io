@@ -1,0 +1,78 @@
+
+
+
+  /*nav bar icons*/
+  .search-icon{
+    display: flex;
+    font-size: 30px;
+   }
+
+   
+   .search-icon .icon-link i {
+    margin-left: 10px; /*spacing between icons*/
+    font-size: 60px;
+    color: #ab8eaf;
+
+}
+.search-container .search-button {
+  background-color: #ab8eaf;
+  padding: 8px 10px;
+  color: white;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+  
+  nav{
+    background-color: #2F2031;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+  }
+  
+
+
+
+.content{
+    text-align: center;
+    color:  #89728c;
+}
+
+.button{
+    display: block;/*change to block to move below the text*/
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 18px;/*larger font size*/
+    background-color:  #89728c;
+    color: #fff;
+    text-decoration: none;
+    border-radius:5px;
+    transition: background-color 0.3s;
+
+}
+
+.button:hover{
+    background-color:  #7d5882; /*darken the background color hover*/
+}
+
+h1{
+    font-size: 36px;/*larger font size*/
+    margin-bottom: 20px;/* Add some space below the heading*/
+    color: #fff;
+}
+
+body{
+    background-image: url(bag.jpg);
+    background-position: top center; /*aligns background image to center*/
+    background-repeat: no-repeat;
+    background-size: auto; /*keeps the orignal size of the background*/
+    display: flex;
+    justify-content: center; /*center content*/
+    align-items: center;/* make sure body takes up at least the height of the viewport*/
+    min-height: 100vh;
+    margin: 0%;/*remove default body margin*/
+}

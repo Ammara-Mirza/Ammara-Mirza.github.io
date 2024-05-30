@@ -1,0 +1,71 @@
+body, html {
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+#searchInput{
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#searchButton{
+    padding: 8px 20px;
+    font-size: 16xp;
+    background-color: #89728c;
+    color:#fff;
+    border: none;
+    border-radius: 5px;
+    cursor:  pointer;
+}
+
+#searchButton:hover {
+    background-color:  #7d5882;
+} 
+
+body{
+    background-image: url('map.jpg');/* Path to your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 80px;
+
+    font-family: Arial, sans-serif; /* Example font */
+}   
+  
+  /*nav bar icons*/
+  .search-icon{
+    display: flex;
+    font-size: 30px;
+   }
+
+   
+   .search-icon .icon-link i {
+    margin-left: 10px; /*spacing between icons*/
+    font-size: 60px;
+    color: #ab8eaf;
+
+}
+.search-container .search-button {
+  background-color: #ab8eaf;
+  padding: 8px 10px;
+  color: white;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+  
+  nav{
+    background-color: #2F2031;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+  }
+  
+
+  
